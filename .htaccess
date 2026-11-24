@@ -1,0 +1,19 @@
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Old static URLs -> PHP pages (keeps existing links/bookmarks working)
+  # (built from REQUEST_URI so it works in a sub-folder or at the domain root)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} ^(.*/)(index|photography|about|services|contact|project)\.html$
+  RewriteRule \.html$ %1%2.php [R=301,L,QSA]
+
+  # Graphic design section was removed -> send old links to the photography portfolio
+  RewriteCond %{REQUEST_URI} ^(.*/)design\.(php|html)$
+  RewriteRule ^design\.(php|html)$ %1photography.php [R=301,L]
+</IfModule>
+
+# Keep docs and tooling out of reach
+<FilesMatch "\.(md|sh)$">
+  Require all denied
+</FilesMatch>

@@ -1,0 +1,190 @@
+<?php
+/* ==========================================================
+   CONTENT DATA — replace placeholder images/text with your work.
+   owned: true  → studio watermark is applied to this preview.
+   Set owned: false for any image you don't have the right to brand.
+   ========================================================== */
+return [
+  'photoCategories' => ['Wedding', 'Pre-Wedding', 'Studio'],
+
+  /* shape: wide | tall | square (sets the grid size).
+     pos: optional CSS object-position used when an image is cropped, e.g. 'center 30%' keeps faces in frame. */
+  'photos' => [
+    ['src' => 'assets/images/gallery/wedding/golden-hour-palace-wedding-walk.webp', 'title' => 'The Palace Walk', 'cat' => 'Wedding', 'desc' => 'Bride and groom walking through a lakeside palace at golden hour.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/pre-wedding/sunset-lakeside-palace-romance.webp', 'title' => 'Lake Palace Sunset', 'cat' => 'Pre-Wedding', 'desc' => 'A sunset pre-wedding session framed by bougainvillea and the lake palace.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/studio/thoughtful-studio-portrait-in-navy-suit.webp', 'title' => 'The Navy Suit', 'cat' => 'Studio', 'desc' => 'A calm, confident studio portrait in low-key light.', 'shape' => 'square', 'pos' => 'center 30%', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/serene-south-asian-bridal-portrait.webp', 'title' => 'The Bride', 'cat' => 'Wedding', 'desc' => 'A quiet bridal portrait by the window, moments before the ceremony.', 'shape' => 'tall', 'pos' => 'center 25%', 'owned' => true],
+    ['src' => 'assets/images/gallery/pre-wedding/golden-cafe-stroll-in-pondicherry.webp', 'title' => 'Café Stroll', 'cat' => 'Pre-Wedding', 'desc' => 'A relaxed walk through the old French quarter of Pondicherry.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/joyful-haldi-celebration-in-bloom.webp', 'title' => 'Haldi in Bloom', 'cat' => 'Wedding', 'desc' => 'Turmeric, marigolds and laughter at a joyful haldi ceremony.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/studio/confident-corporate-portrait-with-gold-accents.webp', 'title' => 'Corporate Portrait', 'cat' => 'Studio', 'desc' => 'A professional headshot with warm, flattering light.', 'shape' => 'square', 'pos' => 'center 30%', 'owned' => true],
+    ['src' => 'assets/images/gallery/pre-wedding/sunset-embrace-by-the-mountain-lake.webp', 'title' => 'Mountain Lake', 'cat' => 'Pre-Wedding', 'desc' => 'A flowing gown and a mountain lake at sunset.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/henna-hands-and-golden-rings.webp', 'title' => 'Henna & Gold', 'cat' => 'Wedding', 'desc' => 'Mehndi, bangles and rings — the details that tell the story.', 'shape' => 'tall', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/golden-hour-indian-wedding-baraat.webp', 'title' => 'The Baraat', 'cat' => 'Wedding', 'desc' => 'Dhol, colour and pure celebration as the groom arrives.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/studio/warm-studio-portrait-smile.webp', 'title' => 'Warm Smile', 'cat' => 'Studio', 'desc' => 'A soft, natural personal portrait in warm window light.', 'shape' => 'square', 'pos' => 'center 30%', 'owned' => true],
+    ['src' => 'assets/images/gallery/pre-wedding/golden-hour-palace-stroll.webp', 'title' => 'Palace Stroll', 'cat' => 'Pre-Wedding', 'desc' => 'An emerald gown and heritage arches in the last light of day.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/bridal-dressing-in-warm-golden-light.webp', 'title' => 'Getting Ready', 'cat' => 'Wedding', 'desc' => 'The bride getting ready in warm, golden morning light.', 'shape' => 'tall', 'pos' => 'center 30%', 'owned' => true],
+    ['src' => 'assets/images/gallery/studio/warm-studio-portrait-of-a-bearded-man.webp', 'title' => 'Quiet Confidence', 'cat' => 'Studio', 'desc' => 'A relaxed studio portrait with a dark, textured backdrop.', 'shape' => 'square', 'pos' => 'center 30%', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/joyful-mehndi-celebration-under-marigolds.webp', 'title' => 'Mehndi Afternoon', 'cat' => 'Wedding', 'desc' => 'Friends, family and marigolds at an outdoor mehndi.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/pre-wedding/sunset-romance-at-the-historic-pavilion.webp', 'title' => 'The Pavilion', 'cat' => 'Pre-Wedding', 'desc' => 'A soft, romantic moment under a historic stone pavilion.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/studio/confident-warm-toned-studio-portrait.webp', 'title' => 'Studio Light', 'cat' => 'Studio', 'desc' => 'A personal portrait with warm tones and a natural pose.', 'shape' => 'square', 'pos' => 'center 30%', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/tearful-indian-wedding-sendoff.webp', 'title' => 'The Vidaai', 'cat' => 'Wedding', 'desc' => 'An emotional farewell — the moment every family remembers.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/pre-wedding/golden-hour-lakeside-romance.webp', 'title' => 'Lakeside', 'cat' => 'Pre-Wedding', 'desc' => 'Golden hour by the water, unposed and unhurried.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/golden-palace-wedding-celebration.webp', 'title' => 'Palace Celebration', 'cat' => 'Wedding', 'desc' => 'Laughter and lights at an evening palace celebration.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/studio/warm-studio-portrait-of-a-smiling-man.webp', 'title' => 'Window Light', 'cat' => 'Studio', 'desc' => 'A friendly headshot with soft window light.', 'shape' => 'square', 'pos' => 'center 30%', 'owned' => true],
+    ['src' => 'assets/images/gallery/wedding/golden-hour-mountain-embrace.webp', 'title' => 'Above the Clouds', 'cat' => 'Wedding', 'desc' => 'The couple above a sea of clouds at sunrise.', 'shape' => 'wide', 'owned' => true],
+    ['src' => 'assets/images/gallery/studio/warm-corporate-portrait-with-soft-smile.webp', 'title' => 'Soft Smile', 'cat' => 'Studio', 'desc' => 'A warm, approachable portrait for a professional profile.', 'shape' => 'square', 'pos' => 'center 30%', 'owned' => true],
+  ],
+
+  /* Services — used by services.php, the homepage teaser, the contact form's "Service" list
+     and the detail pages (service.php?id=<slug>, content in includes/service-details.php).
+     'slug' must stay unique. contact.php?type=... and the form submit use 'name'. */
+  'services' => [
+    'People & Weddings' => [
+      ['slug' => 'wedding-photography', 'name' => 'Wedding Photography',      'desc' => 'Full-day coverage of your celebration — candid moments, rituals, family portraits and every detail in between.'],
+      ['slug' => 'pre-wedding-shoots', 'name' => 'Pre-Wedding Shoots',       'desc' => 'Cinematic couple sessions on location, planned around light, outfits and a story that is yours.'],
+      ['slug' => 'portraits-headshots', 'name' => 'Portraits & Headshots',    'desc' => 'Personal, professional and executive portraits that show character through light and stillness.'],
+      ['slug' => 'maternity-newborn-family', 'name' => 'Maternity, Newborn & Family', 'desc' => 'Gentle, unhurried sessions at home or in the studio, made to be printed and kept.'],
+      ['slug' => 'events-corporate', 'name' => 'Events & Corporate',       'desc' => 'Conferences, launches, parties and corporate events — documented quietly and delivered fast.'],
+    ],
+    'Brands & Commercial' => [
+      ['slug' => 'commercial-advertising', 'name' => 'Commercial & Advertising', 'desc' => 'Campaign imagery for print, outdoor and digital that sells the feeling as much as the product.'],
+      ['slug' => 'product-ecommerce', 'name' => 'Product & E-commerce',     'desc' => 'Sculptural hero stills plus clean, colour-accurate catalogue images for your online store.'],
+      ['slug' => 'fashion-lookbooks', 'name' => 'Fashion & Lookbooks',      'desc' => 'Lookbooks, campaigns and editorials with a cinematic, art-directed point of view.'],
+      ['slug' => 'food-hospitality', 'name' => 'Food & Hospitality',       'desc' => 'Dishes, interiors and atmosphere for restaurants, cafés and hotels.'],
+      ['slug' => 'architecture-interiors', 'name' => 'Architecture & Interiors', 'desc' => 'Spaces photographed with precise perspective and natural light, for architects, designers and real estate.'],
+    ],
+    'Add-ons' => [
+      ['slug' => 'retouching-colour-grading', 'name' => 'Retouching & Colour Grading', 'desc' => 'Professional editing for your images — skin, product clean-up and a consistent signature grade.'],
+      ['slug' => 'albums-fine-art-prints', 'name' => 'Albums & Fine-Art Prints', 'desc' => 'Handcrafted wedding albums and archival prints, framed and ready to hang.'],
+    ],
+  ],
+
+  /* Case studies — opened via project.php?id=<slug>. Gallery images keep their natural shape. */
+  'projects' => [
+    [
+      'slug' => 'palace-wedding',
+      'title' => 'A Palace Wedding',
+      'type' => 'Wedding',
+      'category' => 'Wedding Photography',
+      'year' => '2025',
+      'client' => 'Private Commission',
+      'role' => 'Lead Photography, Couple Portraits',
+      'cover' => 'assets/images/gallery/wedding/golden-hour-palace-wedding-walk.webp',
+      'short' => 'A lakeside palace, three days of celebration and a story told in golden light.',
+      'overview' => 'A destination wedding in a heritage lake palace — from getting ready to the final farewell — photographed with a cinematic, editorial eye.',
+      'challenge' => 'Capture the scale of the palace and the intimacy of small moments without interrupting either.',
+      'approach' => 'Long lenses and available light for the candid moments, and short, guided couple portraits timed for golden hour.',
+      'gallery' => [
+        'assets/images/gallery/wedding/bridal-dressing-in-warm-golden-light.webp',
+        'assets/images/gallery/wedding/golden-palace-wedding-celebration.webp',
+        'assets/images/gallery/wedding/serene-south-asian-bridal-portrait.webp',
+        'assets/images/gallery/wedding/henna-hands-and-golden-rings.webp',
+        'assets/images/gallery/wedding/tearful-indian-wedding-sendoff.webp',
+      ],
+    ],
+    [
+      'slug' => 'lake-palace-pre-wedding',
+      'title' => 'By the Lake Palace',
+      'type' => 'Pre-Wedding',
+      'category' => 'Pre-Wedding Shoot',
+      'year' => '2025',
+      'client' => 'Private Commission',
+      'role' => 'Pre-Wedding Photography, Styling Direction',
+      'cover' => 'assets/images/gallery/pre-wedding/sunset-lakeside-palace-romance.webp',
+      'short' => 'A sunset pre-wedding session among stone pavilions and bougainvillea.',
+      'overview' => 'One evening, two outfits and a lake palace on the horizon — planned around the light so every frame glows.',
+      'challenge' => 'Fit two looks and three locations into a single, short golden hour.',
+      'approach' => 'A tight shot list, scouted angles and gentle direction that kept the couple relaxed and natural.',
+      'gallery' => [
+        'assets/images/gallery/pre-wedding/sunset-romance-at-the-historic-pavilion.webp',
+        'assets/images/gallery/pre-wedding/golden-hour-lakeside-romance.webp',
+        'assets/images/gallery/pre-wedding/sunset-embrace-by-the-mountain-lake.webp',
+      ],
+    ],
+    [
+      'slug' => 'haldi-mehndi',
+      'title' => 'Haldi & Mehndi',
+      'type' => 'Wedding',
+      'category' => 'Wedding Photography',
+      'year' => '2025',
+      'client' => 'Private Commission',
+      'role' => 'Candid Photography',
+      'cover' => 'assets/images/gallery/wedding/joyful-haldi-celebration-in-bloom.webp',
+      'short' => 'Colour, marigolds and laughter from the days before the wedding.',
+      'overview' => 'The haldi, mehndi and baraat — the loudest, happiest days of an Indian wedding — documented as they happened.',
+      'challenge' => 'Fast-moving crowds, mixed light and moments that never repeat.',
+      'approach' => 'Two photographers, quick reflexes and a warm, consistent edit that ties every function together.',
+      'gallery' => [
+        'assets/images/gallery/wedding/joyful-mehndi-celebration-under-marigolds.webp',
+        'assets/images/gallery/wedding/golden-hour-indian-wedding-baraat.webp',
+        'assets/images/gallery/wedding/henna-hands-and-golden-rings.webp',
+      ],
+    ],
+    [
+      'slug' => 'golden-hour-stroll',
+      'title' => 'Golden Hour Stroll',
+      'type' => 'Pre-Wedding',
+      'category' => 'Pre-Wedding Shoot',
+      'year' => '2024',
+      'client' => 'Private Commission',
+      'role' => 'Pre-Wedding Photography',
+      'cover' => 'assets/images/gallery/pre-wedding/golden-cafe-stroll-in-pondicherry.webp',
+      'short' => 'Café streets and heritage arches — a relaxed, story-led pre-wedding.',
+      'overview' => 'A walking pre-wedding through old streets and palace courtyards, made to feel like a day out rather than a photoshoot.',
+      'challenge' => 'The couple wanted photos that felt natural, not posed.',
+      'approach' => 'Minimal direction, walking conversations and a documentary style with a cinematic grade.',
+      'gallery' => [
+        'assets/images/gallery/pre-wedding/golden-hour-palace-stroll.webp',
+        'assets/images/gallery/pre-wedding/golden-hour-lakeside-romance.webp',
+      ],
+    ],
+    [
+      'slug' => 'studio-portraits',
+      'title' => 'Studio Portraits',
+      'type' => 'Studio',
+      'category' => 'Studio & Corporate Portraits',
+      'year' => '2026',
+      'client' => 'Professionals & Founders',
+      'role' => 'Studio Photography, Retouching',
+      'cover' => 'assets/images/gallery/studio/thoughtful-studio-portrait-in-navy-suit.webp',
+      'pos' => 'center 30%',
+      'short' => 'Warm, confident portraits for profiles, websites and press.',
+      'overview' => 'A series of studio headshots and personal portraits with one consistent look — low-key backdrop, warm light, natural expressions.',
+      'challenge' => 'Help people who dislike being photographed look relaxed and like themselves.',
+      'approach' => 'A short conversation first, a simple lighting set-up, and gentle posing that keeps the focus on the eyes.',
+      'gallery' => [
+        'assets/images/gallery/studio/confident-corporate-portrait-with-gold-accents.webp',
+        'assets/images/gallery/studio/warm-studio-portrait-of-a-smiling-man.webp',
+        'assets/images/gallery/studio/warm-studio-portrait-smile.webp',
+        'assets/images/gallery/studio/warm-studio-portrait-of-a-bearded-man.webp',
+        'assets/images/gallery/studio/warm-corporate-portrait-with-soft-smile.webp',
+        'assets/images/gallery/studio/confident-warm-toned-studio-portrait.webp',
+      ],
+    ],
+    [
+      'slug' => 'above-the-clouds',
+      'title' => 'Above the Clouds',
+      'type' => 'Wedding',
+      'category' => 'Couple Portraits',
+      'year' => '2024',
+      'client' => 'Private Commission',
+      'role' => 'Couple Portraits',
+      'cover' => 'assets/images/gallery/wedding/golden-hour-mountain-embrace.webp',
+      'short' => 'A sunrise couple session high above a sea of clouds.',
+      'overview' => 'An early-morning portrait session in the hills, timed for the few minutes when the sun breaks over the clouds.',
+      'challenge' => 'A pre-dawn start, cold wind and only minutes of perfect light.',
+      'approach' => 'Everything scouted the day before, so on the morning we simply waited for the light.',
+      'gallery' => [
+        'assets/images/gallery/pre-wedding/sunset-embrace-by-the-mountain-lake.webp',
+        'assets/images/gallery/pre-wedding/golden-hour-lakeside-romance.webp',
+      ],
+    ],
+  ],
+
+  'team' => [
+    ['name' => 'Your Name', 'role' => 'Founder & Lead Photographer'],
+    ['name' => 'Team Member', 'role' => 'Creative Director'],
+    ['name' => 'Team Member', 'role' => 'Associate Photographer'],
+    ['name' => 'Team Member', 'role' => 'Retoucher & Colourist'],
+  ],
+];
